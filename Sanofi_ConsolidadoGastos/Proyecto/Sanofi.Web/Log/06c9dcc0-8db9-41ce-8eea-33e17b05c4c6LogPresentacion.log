@@ -1,0 +1,16 @@
+----------------------------------------
+Fecha y hora de la operación: 28/12/2020 4:02:23 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 309
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 149
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 28/12/2020 4:02:23 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 323
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 171
+----------------------------------------

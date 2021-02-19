@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "ConsultarAthena";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-md-12">
+    <div class="card-header col-md-12 row">
+        <div class="col-md-6">
+            <h5>CONSULTAR ATHENA</h5>
+        </div>
+    </div>
+    <div class="card-body" style="margin-left: -2%; margin-right: -2%;">
+        <div class="col-md-12  row" style="margin-top: 1%;">
+            <div class="col-md-6">
+                <label>Fecha Inicio <span style="color:red">(*)</span></label>
+                <input class="form-control" id="FechaInicio" />
+            </div>
+            <div class="col-md-6">
+                <label>Fecha Final  <span style="color:red">(*)</span></label>
+                <input class="form-control" id="FechaFin" />
+            </div>
+        </div>
+        <br />
+        <div class="col-md-12 form-group">
+            <center>
+                <button class="btn btn-info" id="BtnBuscar"> <h6><span class="fa fa-search"></span> Buscar</h6></button>
+            </center>
+        </div>
+        <div class="col-md-12 row overflow-auto">
+            <div id="gridLista">
+
+            </div>
+        </div>
+        <div class="card-footer small text-muted"></div>
+    </div>
+</div>
+<script src="~/Scripts/Views/Athena/ConsultarAthena.js"></script>

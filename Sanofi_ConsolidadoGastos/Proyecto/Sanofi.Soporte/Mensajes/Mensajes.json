@@ -1,0 +1,142 @@
+//####################################################################
+// DEPENDÊNCIAS:    Novo.Transferencia de Valor
+// AUTOR:           Daniela Usuga
+// Descrição:       Arquitectura inicial aplicación,  Json donde van los mensajes del aplicativo.
+// DATA:            11/06/2019
+//####################################################################
+
+//tipo=0 éxito
+//tipo=1 advertencia
+//tipo=2 informacion
+//tipo=3 pregunta
+//tipo=4 error
+//tipo=5 progreso
+//tipo=6 cerrar sesión
+
+{
+  "Mensajes": [
+    {
+      "Codigo": 1,
+      "Texto": "Se ha presentado un error. Por favor comunicarse con el administrador.",
+      "Tipo": 4
+    },
+    {
+      "Codigo": 2,
+      "Texto": "Los nombres de los campos del archivo no coinciden con el formato definido, por favor revise la plantilla e intente de nuevo.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 3,
+      "Texto": "La plantilla no se encuentra disponible, sin embargo puede realizar la carga con las columnas:Identificai\u00F3n Selas ,Identificaci\u00F3n Receptor, Tipo Identificaci\u00F3n, Nombre Receptor, C\u00F3digo Municipio, Municipio Residencia, IdTipoReceptor, Tipo Receptor, C\u00F3digo Sociedad, Sociedad Cient\u00EDfica, Especialidad, Identificaci\u00F3n Reemplazante, Consentimiento Informado.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 4,
+      "Texto": "El archivo no contiene informaci\u00F3n. Por favor validar",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 6,
+      "Texto": "Debe seleccionar un archivo con formato xls o xlsx",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 5,
+      "Texto": "La plantilla no se encuentra disponible, sin embargo puede realizar la carga con las columnas: Identificaci\u00F3n receptor, Identificaci\u00F3n Selas, Tipo alimento,ID Evento, Nombre evento, Fecha transferencia, Valor transferencia, Indicador Receptor, Tipo tercero, Eliminar. ",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 7,
+      "Texto": "\u00BFRealmente desea eliminar registros?",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 8,
+      "Texto": "Se present\u00F3 un error al momento de guardar la Informaci\u00F3n.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 9,
+      "Texto": "El archivo no contine registros v\u00E1lidos. Por favor verifique la informaci\u00F3n.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 10,
+      "Texto": "La plantilla no se encuentra disponible, sin embargo puede realizar la carga con las columnas: Identificaci\u00F3n receptor, Identificaci\u00F3n Selas, Nit agencia, Id Evento, Nombre evento, Fecha transferencia, Valor tiquete,Valor alojamiento, Valor traslados, Valor tarjeta de asistencias, Valor por visa, Valor inscripci\u00F3n, Indicador Receptor, Tipo tercero, Eliminar.",
+      "Tipo": 2
+    },
+
+    {
+      "Codigo": 11,
+      "Texto": "No se encontrar\u00F3n coincidencias",
+      "Tipo": 2
+    },
+
+    {
+      "Codigo": 12,
+      "Texto": "La plantilla no se encuentra disponible, sin embargo puede realizar la carga con las columnas: Identificaci\u00F3n receptor,Identificaci\u00F3n Selas, Fecha transferencia,C\u00F3digo Producto, Cantidad, Indicador Receptor, Tipo tercero, Eliminar.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 13,
+      "Texto": "La plantilla no se encuentra disponible, sin embargo puede realizar la carga con las columnas: Identificaci\u00F3n receptor, Identificaci\u00F3n selas, Id evento, Nombre evento, Fecha transferencia, Valor transferencia, Indicador Receptor, Tipo tercero, Eliminar.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 14,
+      "Texto": "La plantilla no se encuentra disponible, sin embargo puede realizar la carga con las columnas: Identificaci\u00F3n receptor,Identificaci\u00F3n Selas,Fecha transferencia, Valor transferencia,NroDocSAP, Indicador Receptor, Tipo tercero, Eliminar.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 17,
+      "Texto": "La plantilla no se encuentra disponible, sin embargo puede realizar la carga con las columnas: Identificaci\u00F3n receptor, Identificaci\u00F3n Selas, Fecha transferencia, Valor transferencia, Contrato SAP, Indicador Receptor, Tipo tercero y Eliminar.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 18,
+      "Texto": "La plantilla no se encuentra disponible, sin embargo puede realizar la carga con las columnas: C\u00F3digo SAP, Producto, IUM, CUM y C\u00F3digo SAP de reemplazo.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 18,
+      "Texto": "La plantilla no se encuentra disponible, sin embargo puede realizar la carga con las columnas: C\u00F3digo SAP, Producto, IUM, CUM y C\u00F3digo SAP de reemplazo.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 19,
+      "Texto": "La plantilla no se encuentra disponible, sin embargo puede realizar la carga con las columnas: Identificaci\u00F3n receptor, Identificaci\u00F3n Selas, Fecha transferencia, Valor transferencia, Indicador Receptor, Tipo tercero,NroDocSAP,Cod promomat,Material, Eliminar. ",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 20,
+      "Texto": "\u00BFRealmente desea reemplazar los registros?",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 21,
+      "Texto": "El usuario no existe en la base de datos.",
+      "Tipo": 2
+    },
+    {
+      "Codigo": 22,
+      "Texto": "El formato del mes de los gastos no concuerda con el estipulado(DD-YYYY)",
+      "Tipo": 2
+    }
+
+  ]
+
+
+
+
+
+
+  //"exclude",
+  //[
+  //  "**/bin",
+  //  "**/bower_components",
+  //  "**/jspm_packages",
+  //  "**/node_modules",
+  //  "**/obj",
+  //  "**/platforms"
+  //]
+}

@@ -1,0 +1,235 @@
+----------------------------------------
+Fecha y hora de la operación: 27/12/2020 4:32:10 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Athena.BMAthena.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 657
+   en Sanofi.Web.Controllers.Athena.AthenaController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Athena\AthenaController.cs:línea 192
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 27/12/2020 4:33:31 p. m.
+Tipo de excepción: System.ComponentModel.Win32Exception
+Mensaje técnico: La conexión con el servidor se ha establecido correctamente, pero se ha producido un error durante el proceso de inicio de sesión. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)
+Message: No hay ningún proceso en el otro extremo de la canalización
+Source: 
+StackTrace:
+TargetSite:
+Body
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 323
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 171
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 27/12/2020 4:33:31 p. m.
+Tipo de excepción: System.ComponentModel.Win32Exception
+Mensaje técnico: La conexión con el servidor se ha establecido correctamente, pero se ha producido un error durante el proceso de inicio de sesión. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)
+Message: No hay ningún proceso en el otro extremo de la canalización
+Source: 
+StackTrace:
+TargetSite:
+Body
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 309
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 149
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 27/12/2020 4:35:50 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Athena.BMAthena.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 643
+   en Sanofi.Web.Controllers.Athena.AthenaController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Athena\AthenaController.cs:línea 169
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 27/12/2020 4:35:50 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Athena.BMAthena.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 657
+   en Sanofi.Web.Controllers.Athena.AthenaController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Athena\AthenaController.cs:línea 192
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 27/12/2020 4:43:14 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.GetNewOpenConnection()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.GetWrappedConnection()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Sanofi.DM.DataAccesObjects.ManagerDM.EjecutarNonQuery(String procedimiento, List`1 listParametros) en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.DM\DataAccesObjects\ManagerDM.cs:línea 77
+   en Sanofi.DM.Athena.DMAthena.InsertarAthena(String Xml) en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.DM\Athena\DMAthena.cs:línea 53
+   en Sanofi.BM.Athena.BMAthena.ConvertToDataTable(List`1 ListaCargaAthena) en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 572
+   en Sanofi.BM.Athena.BMAthena.LeerArchivo(List`1 fileFactura, String nombreArchivo) en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 481
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 27/12/2020 4:56:13 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.GetNewOpenConnection()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.GetWrappedConnection()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Sanofi.DM.DataAccesObjects.ManagerDM.EjecutarNonQuery(String procedimiento, List`1 listParametros) en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.DM\DataAccesObjects\ManagerDM.cs:línea 77
+   en Sanofi.DM.Athena.DMAthena.InsertarAthena(String Xml) en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.DM\Athena\DMAthena.cs:línea 53
+   en Sanofi.BM.Athena.BMAthena.ConvertToDataTable(List`1 ListaCargaAthena) en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 572
+   en Sanofi.BM.Athena.BMAthena.LeerArchivo(List`1 fileFactura, String nombreArchivo) en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 481
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 28/12/2020 3:27:38 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Athena.BMAthena.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 643
+   en Sanofi.Web.Controllers.Athena.AthenaController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Athena\AthenaController.cs:línea 169
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 28/12/2020 3:27:38 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Athena.BMAthena.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 657
+   en Sanofi.Web.Controllers.Athena.AthenaController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Athena\AthenaController.cs:línea 192
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 28/12/2020 4:01:42 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 323
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 171
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 28/12/2020 4:01:42 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 309
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 149
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 28/12/2020 4:02:48 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 309
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 149
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 28/12/2020 4:02:48 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 323
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 171
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 29/12/2020 3:04:03 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 309
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 149
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 29/12/2020 3:09:42 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Athena.BMAthena.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 657
+   en Sanofi.Web.Controllers.Athena.AthenaController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Athena\AthenaController.cs:línea 192
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 29/12/2020 3:09:42 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Solped.BMSolped.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Solped\BMSolped.cs:línea 406
+   en Sanofi.Web.Controllers.Solped.SolpedController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Solped\SolpedController.cs:línea 169
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 29/12/2020 3:09:42 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Solped.BMSolped.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Solped\BMSolped.cs:línea 392
+   en Sanofi.Web.Controllers.Solped.SolpedController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Solped\SolpedController.cs:línea 147
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 12/01/2021 2:15:15 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Athena.BMAthena.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 657
+   en Sanofi.Web.Controllers.Athena.AthenaController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Athena\AthenaController.cs:línea 192
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 12/01/2021 2:15:15 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Athena.BMAthena.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 643
+   en Sanofi.Web.Controllers.Athena.AthenaController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Athena\AthenaController.cs:línea 169
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 12/01/2021 2:15:17 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Solped.BMSolped.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Solped\BMSolped.cs:línea 392
+   en Sanofi.Web.Controllers.Solped.SolpedController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Solped\SolpedController.cs:línea 147
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 12/01/2021 2:15:18 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Solped.BMSolped.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Solped\BMSolped.cs:línea 406
+   en Sanofi.Web.Controllers.Solped.SolpedController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Solped\SolpedController.cs:línea 169
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 12/01/2021 2:15:37 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 323
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 171
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 12/01/2021 2:15:37 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Gastos.BMGastos.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Gastos\BMGastos.cs:línea 309
+   en Sanofi.Web.Controllers.Gastos.GastosController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 149
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 18/01/2021 4:13:06 p. m.
+Tipo de excepción: System.InvalidOperationException
+Mensaje técnico: La secuencia no contiene elementos
+Pila del error:    en System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   en Sanofi.Web.Controllers.Gastos.GastosController.ValidarArchivo(String Plantilla) en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Gastos\GastosController.cs:línea 72
+----------------------------------------

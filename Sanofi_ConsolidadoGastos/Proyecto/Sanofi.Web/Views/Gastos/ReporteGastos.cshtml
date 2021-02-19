@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "ReporteGastos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-md-12">
+    <div class="card-header col-md-12 row">
+        <div class="col-md-6">
+            <h5>REPORTE GASTOS</h5>
+        </div>
+    </div>
+    <div class="card-body" style="margin-left: -2%; margin-right: -2%;">
+        <div class="col-md-12  row" style="margin-top: 1%;">
+            <div class="col-md-3">
+                <label>Fecha<span style="color:red">(*)</span></label>
+                <input class="form-control" id="Fecha" />
+            </div>
+            <div class="col-md-3" style="display:none" id="DivCuenta">
+                <label>Cuenta</label>
+                <div class="input-group">
+                    <input class="form-control" id="Cuenta" autocomplete="off" value="Todos" disabled="disabled" />
+                    <span class="input-group-addon fa fa-list" style="width: auto; cursor:pointer" id="Btncuentas"></span>
+                </div>
+            </div>
+            <div class="col-md-3" style="display:none" id="DivTipo">
+                <label>Tipo</label>
+                <div class="input-group">
+                    <input class="form-control" id="Tipo" autocomplete="off" value="Todos" disabled="disabled" />
+                    <span class="input-group-addon fa fa-list" id="Btntipos" style="width: auto; cursor:pointer"></span>
+                </div>
+            </div>
+            <div class="col-md-3" style="display:none" id="DivConcatenar">
+                <label>Concatenar</label>
+                <div class="input-group">
+                    <input class="form-control" id="Concatenar" autocomplete="off" value="Todos" disabled="disabled" />
+                    <span class="input-group-addon fa fa-list"  style="width: auto; cursor:pointer" id="BtnConcatenar"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="col-md-12 form-group" style="display:none" id="DivBtnBuscar">
+            <center>
+                <div id="dialogCuentas"></div>
+                <div id="dialogTipo"></div>
+                <div id="dialogConcatenar"></div>
+                <button class="btn btn-info" id="BtnBuscar"> <h6><span class="fa fa-search"></span> Buscar</h6></button>
+            </center>
+        </div>
+        <div class="card-footer small text-muted"></div>
+        <div ID="menuContent" runat="server">
+            <iframe id="Frame" border="0" ; style="display:none; width:100%;height: 500px; background-color: #ffffff; align: center; border:0" scrolling="no" frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+<script type="text/x-kendo-template" id="templateCuenta">
+    <div class="row" style="margin-top:-5%;margin-left: auto;">
+        <input type="checkbox" id="C#:Nombre#" style="margin-top:0;" class="checkboxCuenta" checked/>
+        <span class="checkbox" style="margin-top:0;">#:Nombre#</span>
+    </div>
+</script>
+<script type="text/x-kendo-template" id="templateTipo">
+    <div class="row" style="margin-top:-5%;margin-left: auto;">
+        <input type="checkbox" id="T#:Nombre#" style="margin-top:0;" class="checkboxTipo" checked/>
+        <span class="checkbox" style="margin-top:0;">#:Nombre#</span>
+    </div>
+</script>
+<script type="text/x-kendo-template" id="templateConcatenar">
+    <div class="row" style="margin-top:-5%;margin-left: auto;">
+        <input type="checkbox" id="R#:Nombre#" style="margin-top:0;" class="checkboxConcatenar" checked/>
+        <span class="checkbox" style="margin-top:0;">#:Nombre#</span>
+    </div>
+</script>
+<style>
+    #listViewCuentas {
+        padding: 40px 12px;
+        margin-bottom: -1px;
+        overflow: auto;
+    }
+    #listViewTipos {
+        padding: 40px 12px;
+        margin-bottom: -1px;
+        overflow: auto;
+    }
+    #listViewConcatenar {
+        padding: 40px 12px;
+        margin-bottom: -1px;
+        overflow: auto;
+    }
+    #Filtro {
+        border: solid;
+        border-color: #e6e6e6;
+        border-width: 1px;
+    }
+</style>
+<script src="~/Scripts/Views/Gastos/ReporteGastos.js"></script>

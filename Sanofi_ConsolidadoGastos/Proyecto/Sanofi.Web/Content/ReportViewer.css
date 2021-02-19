@@ -1,0 +1,249 @@
+﻿@font-face {
+    font-family: "reportingservicesglyphs-regular";
+    src: url("/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=13.0.1700.305&Name=Microsoft.Reporting.WebForms.Fonts.ReportingServicesGlyphs.eot");
+    src: url("/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=13.0.1700.305&Name=Microsoft.Reporting.WebForms.Fonts.ReportingServicesGlyphs.eot?#iefix") format("embedded-opentype"),url("/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=13.0.1700.305&Name=Microsoft.Reporting.WebForms.Fonts.ReportingServicesGlyphs.woff") format("woff"),url("/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=13.0.1700.305&Name=Microsoft.Reporting.WebForms.Fonts.ReportingServicesGlyphs.ttf") format("truetype"),url("/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=13.0.1700.305&Name=Microsoft.Reporting.WebForms.Fonts.ReportingServicesGlyphssvg#PowerBIGlyphs-regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.glyphui {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    font-family: "reportingservicesglyphs-regular";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size: 14pt;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphui-calendar:before {
+    content: "H";
+}
+
+.glyphui-powerbi:before {
+    content: "E";
+}
+
+.glyphui-refresh:before {
+    content: "F";
+}
+
+.glyphui-back:before {
+    content: "G";
+}
+
+.glyphui-firstpage:before {
+    content: "A";
+}
+
+.glyphui-lastpage:before {
+    content: "B";
+}
+
+.glyphui-previouspage:before {
+    content: "C";
+}
+
+.glyphui-nextpage:before {
+    content: "D";
+}
+
+.glyphui-downarrow:before {
+    content: "K";
+}
+
+.glyphui-save:before {
+    content: "J";
+    height: 200px;
+    width: 50px
+}
+
+.glyphui-print:before {
+    content: "I";
+}
+
+.MenuBarBkGnd div, .MenuBarBkGnd span, .DocMapBar {
+    color: #000000;
+}
+
+.ActiveLink:link {
+    color: #000000;
+}
+
+.ActiveLink:hover {
+    color: #000000;
+}
+
+.ActiveLink:visited {
+    color: #000000;
+}
+
+.ActiveLink:visited:hover {
+    color: #000000;
+}
+
+:focus {
+    outline-color: #F4F4F4;
+}
+
+span.glyphui {
+    color: #000000;
+}
+
+.aspNetDisabled.DisabledButton span.glyphui {
+    color: #7A7A7A;
+}
+
+.MenuBarBkGnd .HoverButton {
+    background-color: #F4F4F4;
+}
+
+.WaitControlBackground {
+    background-color: White;
+    border-color: #DDDDDD;
+}
+
+.WaitText {
+    font-size: 10pt;
+    font-family: "Segoe UI","Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+
+.CancelLinkText {
+    font-size: 10pt;
+    font-family: "Segoe UI","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sk-circle .sk-child:before {
+    background-color: #000000;
+}
+
+.spinnie .dot:after {
+    background: #000000;
+}
+
+.ParametersFrame {
+    background-color: White;
+    border-color: #DDDDDD;
+}
+
+    .ParametersFrame span.glyphui:hover {
+        color: #000000;
+        background-color: #F4F4F4;
+    }
+
+.ParamEntryCell .glyphui.glyphui-downarrow {
+    font-size: 8pt;
+}
+
+.ToolBarButtonsCell {
+    border-color: #DDDDDD;
+}
+
+.ToolBarBackground {
+    background-color: White;
+}
+
+.ToolbarExport.WidgetSet, .ToolbarFind.WidgetSet, .ToolbarZoom.WidgetSet, .ToolbarPageNav.WidgetSet, .ToolbarRefresh.WidgetSet, .ToolbarPrint.WidgetSet, .ToolbarBack.WidgetSet, .ToolbarPowerBI.WidgetSet {
+    border-color: #DDDDDD;
+}
+
+.DisabledLink {
+    color: #7A7A7A;
+}
+
+    .DisabledLink:hover {
+        color: #7A7A7A;
+    }
+
+.DisabledTextBox {
+    background-color: #FFFFFF;
+}
+
+.NormalButton {
+    font-size: 10pt;
+    font-family: "Segoe UI","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.DisabledButton {
+    font-size: 10pt;
+    font-family: "Segoe UI","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ToolbarExport .MenuBarBkGnd div {
+    background-color: White;
+    border-color: #DDDDDD;
+}
+
+.ToolbarExport .MenuBarBkGnd .HoverButton {
+    background-color: #F4F4F4;
+}
+
+.ToolbarExport .glyphui-downarrow {
+    font-size: 8pt;
+}
+
+.SplitterNormal, .SplitterHover {
+    background-color: #DDDDDD;
+}
+
+.DocMapFrame, .DocMapTitle {
+    border-color: #DDDDDD;
+}
+
+.documentMapHighlighting {
+    background-color: #F4F4F4;
+    color: #000000;
+}
+
+.DocMapContentCell a {
+    color: #000000;
+}
+
+.searchHighlighting {
+    background-color: #FFC20D;
+}
+
+.msrs-printdialog-main {
+    font-family: "Segoe UI","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.msrs-printdialog-caption, .msrs-printdialog-list-pageorientation {
+    font-family: "Segoe UI","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.msrs-printdialog-list-pagesize {
+    font-family: "Segoe UI","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.msrs-printdialog-divbuttons {
+    font-family: "Segoe UI","Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #BB2124;
+    color: #FFFFFF;
+}
+
+.msrs-printdialog-divhighlightbutton:hover, .msrs-printdialog-divhighlightbutton:focus {
+    background-color: #D31115;
+    color: #FFFFFF;
+}
+
+.msrs-printdialog-divhighlightbutton {
+    background-color: #BB2124;
+    border-color: #BB2124;
+    color: #FFFFFF;
+}
+
+.msrs-printdialog-divnonhightlightbutton:hover, .msrs-printdialog-divnonhightlightbutton:focus {
+    background-color: #E6E6E6;
+    color: #000000;
+}
+
+.msrs-printdialog-divnonhightlightbutton {
+    background-color: #C8C8C8;
+    border-color: #C8C8C8;
+    color: #000000;
+}

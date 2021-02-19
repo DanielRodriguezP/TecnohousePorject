@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29827.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccesoDatos", "AccesoDatos", "{C16F8D51-AFE0-4549-86DF-A64D3EFEF5F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{E7E90C58-B436-4943-8E5C-02D7A12BE743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentación", "Presentación", "{182C5CC6-E9EE-49B6-81F3-62D056673EE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{74F6AB44-AEFA-43BE-BD0D-83ED1ED97DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanofi.DM", "Sanofi.DM\Sanofi.DM.csproj", "{E2E49287-2BBB-4C14-B8B7-4A42178A544E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanofi.BM", "Sanofi.BM\Sanofi.BM.csproj", "{CEFB35C3-013A-49CA-AF9D-FE2B3A2E3227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanofi.DT", "Sanofi.DT\Sanofi.DT.csproj", "{E3237E3E-643C-4B5F-92A4-1C7D6368584F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanofi.Soporte", "Sanofi.Soporte\Sanofi.Soporte.csproj", "{72AECAFA-ACFF-4FFA-A75F-F32FC481DC47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanofi.Web", "Sanofi.Web\Sanofi.Web.csproj", "{57B743D4-72AD-4957-BBC6-BB449A4CA21A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2E49287-2BBB-4C14-B8B7-4A42178A544E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E49287-2BBB-4C14-B8B7-4A42178A544E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E49287-2BBB-4C14-B8B7-4A42178A544E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E49287-2BBB-4C14-B8B7-4A42178A544E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEFB35C3-013A-49CA-AF9D-FE2B3A2E3227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFB35C3-013A-49CA-AF9D-FE2B3A2E3227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFB35C3-013A-49CA-AF9D-FE2B3A2E3227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFB35C3-013A-49CA-AF9D-FE2B3A2E3227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3237E3E-643C-4B5F-92A4-1C7D6368584F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3237E3E-643C-4B5F-92A4-1C7D6368584F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3237E3E-643C-4B5F-92A4-1C7D6368584F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3237E3E-643C-4B5F-92A4-1C7D6368584F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72AECAFA-ACFF-4FFA-A75F-F32FC481DC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AECAFA-ACFF-4FFA-A75F-F32FC481DC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AECAFA-ACFF-4FFA-A75F-F32FC481DC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AECAFA-ACFF-4FFA-A75F-F32FC481DC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B743D4-72AD-4957-BBC6-BB449A4CA21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B743D4-72AD-4957-BBC6-BB449A4CA21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B743D4-72AD-4957-BBC6-BB449A4CA21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B743D4-72AD-4957-BBC6-BB449A4CA21A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2E49287-2BBB-4C14-B8B7-4A42178A544E} = {C16F8D51-AFE0-4549-86DF-A64D3EFEF5F3}
+		{CEFB35C3-013A-49CA-AF9D-FE2B3A2E3227} = {E7E90C58-B436-4943-8E5C-02D7A12BE743}
+		{E3237E3E-643C-4B5F-92A4-1C7D6368584F} = {74F6AB44-AEFA-43BE-BD0D-83ED1ED97DB5}
+		{72AECAFA-ACFF-4FFA-A75F-F32FC481DC47} = {74F6AB44-AEFA-43BE-BD0D-83ED1ED97DB5}
+		{57B743D4-72AD-4957-BBC6-BB449A4CA21A} = {182C5CC6-E9EE-49B6-81F3-62D056673EE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45
+		SolutionGuid = {1A53CCE1-3E62-44CB-95DD-0256E02E4A17}
+	EndGlobalSection
+EndGlobal

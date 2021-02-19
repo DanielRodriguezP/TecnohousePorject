@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSReportes" targetNamespace="http://tempuri.org/DSReportes.xsd" xmlns:mstns="http://tempuri.org/DSReportes.xsd" xmlns="http://tempuri.org/DSReportes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSReportes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSReportes" msprop:Generator_UserDSName="DSReportes">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Athena" msprop:Generator_TableClassName="AthenaDataTable" msprop:Generator_TableVarName="tableAthena" msprop:Generator_TablePropName="Athena" msprop:Generator_RowDeletingName="AthenaRowDeleting" msprop:Generator_RowChangingName="AthenaRowChanging" msprop:Generator_RowEvHandlerName="AthenaRowChangeEventHandler" msprop:Generator_RowDeletedName="AthenaRowDeleted" msprop:Generator_UserTableName="Athena" msprop:Generator_RowChangedName="AthenaRowChanged" msprop:Generator_RowEvArgName="AthenaRowChangeEvent" msprop:Generator_RowClassName="AthenaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PurchasinDoc" msprop:Generator_ColumnVarNameInTable="columnPurchasinDoc" msprop:Generator_ColumnPropNameInRow="PurchasinDoc" msprop:Generator_ColumnPropNameInTable="PurchasinDocColumn" msprop:Generator_UserColumnName="PurchasinDoc" type="xs:string" minOccurs="0" />
+              <xs:element name="Material" msprop:Generator_ColumnVarNameInTable="columnMaterial" msprop:Generator_ColumnPropNameInRow="Material" msprop:Generator_ColumnPropNameInTable="MaterialColumn" msprop:Generator_UserColumnName="Material" type="xs:string" minOccurs="0" />
+              <xs:element name="ShortTxt" msprop:Generator_ColumnVarNameInTable="columnShortTxt" msprop:Generator_ColumnPropNameInRow="ShortTxt" msprop:Generator_ColumnPropNameInTable="ShortTxtColumn" msprop:Generator_UserColumnName="ShortTxt" type="xs:string" minOccurs="0" />
+              <xs:element name="OrderQty" msprop:Generator_ColumnVarNameInTable="columnOrderQty" msprop:Generator_ColumnPropNameInRow="OrderQty" msprop:Generator_ColumnPropNameInTable="OrderQtyColumn" msprop:Generator_UserColumnName="OrderQty" type="xs:string" minOccurs="0" />
+              <xs:element name="NetOrderValue" msprop:Generator_ColumnVarNameInTable="columnNetOrderValue" msprop:Generator_ColumnPropNameInRow="NetOrderValue" msprop:Generator_ColumnPropNameInTable="NetOrderValueColumn" msprop:Generator_UserColumnName="NetOrderValue" type="xs:string" minOccurs="0" />
+              <xs:element name="Vendor" msprop:Generator_ColumnVarNameInTable="columnVendor" msprop:Generator_ColumnPropNameInRow="Vendor" msprop:Generator_ColumnPropNameInTable="VendorColumn" msprop:Generator_UserColumnName="Vendor" type="xs:string" minOccurs="0" />
+              <xs:element name="Currency" msprop:Generator_ColumnVarNameInTable="columnCurrency" msprop:Generator_ColumnPropNameInRow="Currency" msprop:Generator_ColumnPropNameInTable="CurrencyColumn" msprop:Generator_UserColumnName="Currency" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

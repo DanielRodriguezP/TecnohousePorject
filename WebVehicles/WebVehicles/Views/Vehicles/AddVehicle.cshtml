@@ -1,0 +1,73 @@
+﻿@model WebVehicles.Models.VehicleViewModel
+
+@{
+    ViewData["Title"] = "AddVehicle";
+}
+
+<h2>AddVehicle</h2>
+
+<h4>VehicleViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddVehicle">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LicensePlate" class="control-label"></label>
+                <input asp-for="LicensePlate" class="form-control" />
+                <span asp-validation-for="LicensePlate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Color" class="control-label"></label>
+                <input asp-for="Color" class="form-control" />
+                <span asp-validation-for="Color" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Model" class="control-label"></label>
+                <input asp-for="Model" class="form-control" />
+                <span asp-validation-for="Model" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateAdmission" class="control-label"></label>
+                <input asp-for="DateAdmission" class="form-control" />
+                <span asp-validation-for="DateAdmission" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Value" class="control-label"></label>
+                <input asp-for="Value" class="form-control" />
+                <span asp-validation-for="Value" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhotoUrl" class="control-label"></label>
+                <input asp-for="PhotoUrl" class="form-control" />
+                <span asp-validation-for="PhotoUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhotoId" class="control-label"></label>
+                <input asp-for="PhotoId" class="form-control" />
+                <span asp-validation-for="PhotoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhotoFullPath" class="control-label"></label>
+                <input asp-for="PhotoFullPath" class="form-control" />
+                <span asp-validation-for="PhotoFullPath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateLocal" class="control-label"></label>
+                <input asp-for="DateLocal" class="form-control" />
+                <span asp-validation-for="DateLocal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

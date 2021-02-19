@@ -1,0 +1,16 @@
+----------------------------------------
+Fecha y hora de la operación: 29/12/2020 3:04:50 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Athena.BMAthena.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 657
+   en Sanofi.Web.Controllers.Athena.AthenaController.ConsultarErroresExcel() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Athena\AthenaController.cs:línea 192
+----------------------------------------
+----------------------------------------
+Fecha y hora de la operación: 29/12/2020 3:04:50 p. m.
+Tipo de excepción: System.Data.SqlClient.SqlException
+Mensaje técnico: Cannot open database "db_CargarExcelSanofi" requested by the login. The login failed.
+Login failed for user 'DESKTOP-L89G6E7\Daniel'.
+Pila del error:    en Sanofi.BM.Athena.BMAthena.ConsultarRegistrosEx() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.BM\Athena\BMAthena.cs:línea 643
+   en Sanofi.Web.Controllers.Athena.AthenaController.ConsultarregistrosExitosos() en C:\Project\Sanofi_ConsolidadoGastos\Proyecto\Sanofi.Web\Controllers\Athena\AthenaController.cs:línea 169
+----------------------------------------

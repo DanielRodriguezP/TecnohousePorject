@@ -1,0 +1,71 @@
+﻿
+@{
+    /**/
+
+    ViewBag.Title = "Athena";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/EstilosAplicativo.css" rel="stylesheet" />
+<div class="col-md-12">
+    <div class="card-header col-md-12 row">
+        <div class="col-md-6">
+            <h5>Solped</h5>
+        </div>
+        <div class="col-md-6">
+            <a class="btn btn-warning btn pull-right" id="lbDescargarPlantilla">Descargar Plantilla</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <center><h4>Seleccionar Archivo</h4></center>
+        <div class="input-container">
+            <input type="file" id="real-input" accept=".xls, .xlsx">
+            <button class="browse-btn">
+                Búsqueda de archivos
+            </button>
+            <span class="file-info" id="NombreArchivo">Cargar un archivo</span>
+        </div>
+        <center><button class="btn btn-success" id="BtnSubirInfo" style="display:none;" onclick="CargarInformacionExcel();">Guardar Información</button></center>
+    </div>
+    <div class="col-md-12 row overflow-auto">
+        <div class="tabset">
+            <!-- Tab 1 -->
+            <input type="radio" name="tabset" id="tab1" aria-controls="Correctos" checked>
+            <label for="tab1">Registros Cargados <span class="badge badge-success" id="SpamSucess">0</span></label>
+            <!-- Tab 2 -->
+            <input type="radio" name="tabset" id="tab2" aria-controls="Incorrectos">
+            <label for="tab2">Valores Incorrectos <span class="badge badge-danger" id="SpanError">0</span></label>
+
+            <div class="tab-panels">
+                <section id="Correctos" class="tab-panel">
+                    <div id="gridExitosos">
+
+                    </div>
+                </section>
+                <section id="Incorrectos" class="tab-panel">
+                    <div id="gridErorres">
+
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="spreadsheet" style="width: 100%;display:none"></div>
+    <div class="card-footer small text-muted"></div>
+</div>
+<div id="ModalCarga" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="vertical-align:middle">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img style="display: block; margin: auto;" src="~/Content/Images/carga.gif" />
+            </div>
+            <div class="modal-footer">
+                <h1 id="hcarga" style="text-align:center;"></h1>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/Views/Solped/IndexSolped.js"></script>
+
